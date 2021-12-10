@@ -44,9 +44,9 @@ public class FileParser {
                     }
                 }
                 double val = findTotalAcc(x, y, z);
-                if (temp[0].equals("gyro:")){
+                if (temp[0].equals("Gyro:")){
                     this.angularVelocity.add(val);
-                } else if (temp[0].equals("accel:")) {
+                } else if (temp[0].equals("Accel:")) {
                     this.acceleration.add(val);
                 }
             }
@@ -74,7 +74,7 @@ public class FileParser {
 
     private void findAngularMax() {
         for (int i = 0; i < angularVelocity.size(); i++) {
-            this.angularMax = Math.max(this.accMax, angularVelocity.get(i));
+            this.angularMax = Math.max(this.angularMax, angularVelocity.get(i));
         }
     }
 
