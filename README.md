@@ -1,4 +1,4 @@
-# fallDetectionAlgorithm
+# Fall Detection Algorithm
 
 ECE4873 Senior Design Project 
 
