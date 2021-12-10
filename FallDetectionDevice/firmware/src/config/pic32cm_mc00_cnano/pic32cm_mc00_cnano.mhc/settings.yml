@@ -1,0 +1,14 @@
+configName: pic32cm_mc00_cnano
+folderName: FallDetection
+format_version: v1.0
+frameworkPath: ../../Documents/Harmony
+processor: PIC32CM6408MC00032
+projectName: FallDetection
+settings:
+  PackageFilter: dev_packs;quick_docs;csp
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: ./dev_packs/arm/CMSIS/5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: ./dev_packs/Microchip/PIC32CM-MC_DFP/1.3.58/PIC32CM6408MC00032/atdf/PIC32CM6408MC00032.atdf
